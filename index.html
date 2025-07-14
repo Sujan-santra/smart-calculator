@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="description" content="All-in-One Calculator Tool: GST, Percentage, EMI, Age - Made in India"/>
+  <title>Smart India Calculator Tool</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+  <!-- Navigation Menu -->
+  <nav class="top-nav">
+    <div class="logo">≡</div>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <li><a href="#privacy">Privacy Policy</a></li>
+    </ul>
+  </nav>
+
+  <!-- Intro Content -->
+  <section class="intro">
+    <h1>GST, Percentage, EMI & Age Calculator - All in One</h1>
+    <p>
+      Use our All-in-One Calculator to easily calculate GST, Percentage, EMI, and Age. This mobile-friendly, SEO-optimized tool is built for Indian users and globally accessible.
+    </p>
+    <p><strong>Select an option below to get started 👇</strong></p>
+  </section>
+
+  <!-- Calculator Tool -->
+  <section class="calculator-box">
+    <select id="toolSelector">
+      <option value="gst">GST Calculator</option>
+      <option value="percentage">Percentage Calculator</option>
+      <option value="emi">EMI Calculator</option>
+      <option value="age">Age Calculator</option>
+    </select>
+
+    <div id="inputArea"></div>
+    <button onclick="calculate()">Calculate</button>
+    <div id="result" class="result"></div>
+  </section>
+
+  <!-- How to Use Section -->
+  <section class="how-to" id="howto">
+    <h2>How to Use</h2>
+    <ul>
+      <li>Select your calculator from the dropdown.</li>
+      <li>Enter the input values.</li>
+      <li>Click the Calculate button to see the result.</li>
+    </ul>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>🇮🇳 Made in India | &copy; 2025 SmartCalculator.in</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
